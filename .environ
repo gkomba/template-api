@@ -1,0 +1,18 @@
+# Upstash QStash Configuration
+QSTASH_URL="https://qstash.upstash.io"
+QSTASH_TOKEN="eyJVc2VySUQiOiIwY2EwNTRmYy1iZGIyLTRhZDgtYjgxMS1jNzcwNjNkMGQ1ZGIiLCJQYXNzd29yZCI6Ijc5N2Y0OWM4MGQ5MjRkNWNhYWJlMzY5ODMzZmZiYjZhIn0="
+QSTASH_CURRENT_SIGNING_KEY="sig_5v6NKCCLUGs7NvGRtdfxkCx5CTQp"
+QSTASH_NEXT_SIGNING_KEY="sig_61EpkaBsvpgiYEUmAKnZUvXJygS3"
+
+# Email Adress
+EMAIL_ADDRESS_1="NONAME <tamplate@leabookshare.app>"
+
+# Other
+JWT_SECRET="your_jwt_secret_key"
+NODE_ENV="development"
+
+# Local Postgres for Development
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=123
+POSTGRES_DB=development
+DATABASE_URL="postgresql://postgres:123@localhost:5434/development?schema=public"
